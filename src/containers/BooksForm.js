@@ -48,7 +48,17 @@ class BooksForm extends React.Component {
       titleError: '',
     });
   }
-
+  // async componentDidMount(prevState) {
+  //   try {
+  //     const response = await axios.get('https://bookstore-apis.herokuapp.com//api/v1/books')
+  //     const data = response.data.book
+  //     this.setState((state)=>({
+  //       state: data
+  //     }))
+  //   } catch(error){
+  //     throw error
+  //   }
+  // }
   render() {
     const { title, titleError, category } = this.state;
     return (

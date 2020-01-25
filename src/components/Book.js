@@ -8,6 +8,7 @@ function Book({ book, clickDelete }) {
         <div>
           <h4>{book.category}</h4>
           <h2>{book.title}</h2>
+          <h5>{book.author}</h5>
         </div>
         <div>
           <button
